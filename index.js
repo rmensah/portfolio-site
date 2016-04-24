@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 var logger = require('morgan');
 
 app.use(logger('dev'));
@@ -9,7 +10,7 @@ app.get("*", function(req,res){
 	res.sendFile(process.cwd() + "/public/index.html")
 })
 
-var port = process.env.PORT | 3000;
-app.listen(port, function() {
-  console.log("listening on port:" + port);
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
+  console.log("listening on port:" + PORT);
 });
