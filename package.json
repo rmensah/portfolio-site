@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-     "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rmensah/richardmensah.git"
   },
-  "author": "",
+  "author": "Richard Mensah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rmensah/richardmensah/issues"
