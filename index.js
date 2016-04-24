@@ -9,7 +9,7 @@ app.get("*", function(req,res){
 	res.sendFile(process.cwd() + "/public/index.html")
 })
 
-var port = 3000;
+var port = process.env.PORT | 3000;
 app.listen(port, function() {
   console.log("listening on port:" + port);
 });
