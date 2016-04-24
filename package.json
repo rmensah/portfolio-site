@@ -1,24 +1,22 @@
 {
   "name": "portfolio-site",
   "version": "1.0.0",
-  "description": "This is a personal portfolio site for Richard Mensah",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmensah/portfolio-site.git"
+    "url": "git+https://github.com/rmensah/richardmensah.git"
   },
-  "author": "Richard Mensah",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmensah/portfolio-site/issues"
+    "url": "https://github.com/rmensah/richardmensah/issues"
   },
-  "homepage": "https://github.com/rmensah/portfolio-site#readme",
+  "homepage": "https://github.com/rmensah/richardmensah#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "morgan": "^1.7.0",
-    "path": "^0.12.7"
+    "express": "^4.13.4"
   }
 }
